@@ -53,6 +53,7 @@ const ViewTeam = () => {
             </tbody>
         </table>
     </div>
+    );
 }
 
 export default ViewTeam
