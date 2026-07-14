@@ -15,7 +15,8 @@ function App() {
       <NavigationBar/>
       <Routes>
         <Route path="/" element={<AddTeam/>}/>
-        <Route path="View Team" element={<ViewTeam/>}/>
+        <Route path="/Add Team" element={<AddTeam/>}/>
+        <Route path="/View Team" element={<ViewTeam/>}/>
       </Routes>
     </BrowserRouter>
     </>
